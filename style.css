@@ -1,0 +1,119 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#44B70F;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(182, 180, 180);
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #44B70F;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+.space{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.iconotarget{
+	color: #212529;
+	margin-right: 5px;
+}
+
+.targetfooter{
+	margin-bottom: 60px;
+}
+
+.linkdeco{
+	text-decoration: none;
+	color: #212529;
+}
+
+/*links iconos redes sociales*/
+.redes{
+    color: white;
+}
+
+.redes:hover{
+text-decoration: none;
+color: white;
+background-color: #212529;
+}
+
+
+/*color de link*/
+.autora{
+	text-decoration: none;
+    color: white;
+}
+
+/*efecto sobre link de autora*/
+.autor:hover{
+    transition: background-color .5s;
+    color: #212529;
+    background-color: white;
+	border-radius: 3px;
+}
+
+/*mejorando efecto de link sobre las cards*/
+.deco{
+    text-decoration: none;
+    color: #212529;
+}
+/*same here*/
+.descripcion:hover{
+color: #212529;
+text-decoration: none;
+}
+
+.naveg{
+margin-top: 15px;	
+font-family: 'Roboto Mono', monospace;
+font-size: 18px;
+}
+
+.git{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+h3{
+	font-family: 'Playfair Display', serif;}
+
+	
+h1{
+	font-family: 'Noto Serif Display', serif;}
+
+p{
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+		font-size: large;
+}
+
+
+/*castorotype now is fjord one. card`s title*/
+.castorotype{
+	font-family: 'Alata', sans-serif;
+}
+
+.finalmargen{
+	margin-top: 20px;
+	}
+
+@media screen and (max-width:991px){
+	.burguer{
+		margin-left: 20px;
+	}
+}
