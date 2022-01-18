@@ -1,0 +1,177 @@
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#44B70F;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px rgb(182, 180, 180);
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #44B70F;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+*::selection{ 
+	color: rgb(255, 255, 255);  background: rgb(116, 224, 53); 
+}
+
+
+
+
+nav a p{
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+nav ul li a p{
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+
+.burguer-icon{
+	background-image: none;
+}
+.links{
+	text-decoration: none;
+}
+.items{
+	color: rgb(15, 9, 5);
+}
+
+.section1{
+	background-color: rgb(255, 219, 57);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.section2{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.row-section2{
+	background-color: rgb(119, 202, 51);
+
+}
+.horizontal{
+	padding-top: 20px;
+}
+.horizontal2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+.cope-redes{
+	text-align: center;
+}
+
+p{
+	font-family: 'Shippori Antique', sans-serif;
+}
+
+.links-blanco{
+	color: white;
+}
+
+.enlace{
+	text-decoration: none;
+}
+
+.colortarjeta{
+	background-image: linear-gradient(to bottom right, rgb(197, 218, 245), rgb(241, 252, 255));
+}
+
+.leermas{
+	color: rgb(255, 255, 255);
+	font-size: smaller;
+}
+
+.arrow-rigth{
+	margin-left: 150px;
+	margin-top: -3.5px;
+	color: rgb(255, 255, 255);
+}
+
+.aline-icono{
+	display: flex;
+}
+
+.back:hover{
+	background-image: linear-gradient(to bottom right, rgb(187, 216, 255), rgb(241, 252, 255));
+}
+
+.subtitulo-target{
+	margin-bottom: 6px;
+}
+
+.color-iconos{
+	text-decoration: none;
+	color: #ffd900;
+}
+.color-iconos:hover{
+	color: #ffd900;
+}
+
+.imagen-banner{
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 10px;
+}
+
+
+
+h1{
+	font-family: 'Cormorant', serif;
+	font-size: 45px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer{
+background-color: rgb(7, 62, 133);
+ 	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer h5{
+	font-family: 'Hammersmith One', sans-serif;
+	color: white;}
+
+@media screen and (max-width:991px){
+	.burguer{
+		margin-left: 20px;
+	}
+
+	.margin-top-all{
+		margin-top: 15px;
+		padding-bottom: 15px;
+
+	}
+
+	nav ul li a p{
+		margin-left: 20px;
+	}
+}
+
+
+@media screen and (max-width:383px){
+	.burguer{
+		margin-left: 20px;
+	}
+
+	
+}
